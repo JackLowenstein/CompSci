@@ -1,0 +1,19 @@
+//Guess value from 1 - 100
+//Binary search (Begin from 50)
+Initial Value 50
+
+value = x
+
+if x output = Good
+
+	print x output
+
+else 
+	if x output = high
+
+		input (x + 0)/2
+
+	else
+
+		input (x+100)/2
+		
