@@ -1,0 +1,21 @@
+def showTwoPictures():
+
+  file = pickAFile()
+  pic = makePicture(file)
+  show(pic)
+  
+  file2 = pickAFile()
+  pic2 = makePicture(file2)
+  show(pic2)
+
+def printInvite():
+  print "Please come to the party on the whatvereth, its gonna be super wild! Dont miss this excellent party!"
+  
+def printDisclaimer():
+
+  print "This party is for those who are 21 plus. Hughly ilegal experimental alcoholic beverages will be available. Pregnant women and those over the age of 80 shoud not attend. 'Stay safe and have a good time' - The ORganizer"
+
+def printFullInvite():
+
+  printInvite 
+  printDisclaimer
