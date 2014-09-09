@@ -1,0 +1,16 @@
+def bin2dec():
+   num = [1,0,1,0,1,1,1,0,0,1,1,1,0,0,1]
+   n = len(num)
+   result = 0
+   for index in range(n):
+    result = result + num[index]*pow(2,(n-1)-index)
+   print result
+
+def dec2bin():
+	num = [2,3]
+	x = len(num)
+	result = 0
+	for index in range(x):
+		num = N
+		P = N%2
+		
